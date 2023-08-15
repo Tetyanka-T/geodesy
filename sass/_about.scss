@@ -1,0 +1,49 @@
+.about {
+    background-color: var(--background-color);
+}
+.about-section_service_list {
+    margin: 0 auto;
+    & li {
+        margin-bottom: 15px;
+       
+    }
+    & li:last-child {
+        margin-bottom: 0;
+    }
+}
+.about-section_service_item {
+    margin-top: 15px;
+}
+.about-section_prof {
+    text-align: center;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .section-about {
+        display: flex;
+        align-items: center;
+        padding: 40px 0;
+    }
+    .section-about_info {
+        margin-left: 40px;
+    }
+
+
+ 
+}
+
+
+@media screen and (min-width: 1200px) {
+ 
+ 
+    .section-about {
+        padding: 60px 0;
+    }
+    .section-about_info {
+        margin-left: 60px;
+    }
+
+    
+}
